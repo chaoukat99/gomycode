@@ -80,6 +80,7 @@ Non Primitive Data Types
 undefined
 Array
 Set
+Object
 */
 
 
@@ -114,7 +115,7 @@ let trophés=null;
 
 // Typeof    typeof(variabe)=> type donné
 
-// console.log(typeof(null));
+// console.log(typeof("hello"));
 
 
 
@@ -223,7 +224,7 @@ num2=10;
 
 // Opérateur de comparaison    > < >= <= == === ! 
 
-// console.log(num1==num2);
+// console.log(num1!==num2);
 
 
 
@@ -246,7 +247,7 @@ test =age>10 || age<10;
 // true || true = true
 // true || false = true
 // false || false = false
-// false   true =true 
+// false ||  true =true 
 
 
 let expr1=10;
@@ -533,7 +534,7 @@ alert qui affiche le resultas de calcul
 
 
 
-// Conditioon ternaire     (condiont?si le resultat est true:si le resultat est false)
+// Condition ternaire     (condition?si le resultat est true:si le resultat est false)
 
 
 
@@ -548,4 +549,136 @@ let clientAge=20;
     
 // }
 
-console.log(clientAge>=18?"Adulte":"Mineur");
+
+
+
+
+
+// console.log(clientAge>=18?"Adulte":"Mineur");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let test2=confirm("You want to see the sweet alert");
+// if(test2){
+//    Swal.fire({
+//       title: "Congrats ",
+//       text: "Thank you so much for contacting us",
+//       icon:"success",
+//       timer:1000,
+//       showConfirmButton:true
+//     });
+
+// }else{
+//    Swal.fire({
+//       title: "Sorry , Try later",
+//       htlm: "<b>Try it Next time</b>",
+//       icon:"error",
+//       timer:1000,
+//       showConfirmButton:false
+//     });
+// }
+
+
+//  DOM & BOM & navigator
+
+
+
+
+// string Methods
+
+let str ="hello my name is omar";
+
+
+
+// let btn=document.querySelector("button");
+// btn.onclick=()=>{
+//    if(document.querySelector("input").value.length>5 && document.querySelector("input").value.length<10 ){
+//       alert("Username valide "+document.querySelector("input").value.length)
+//    }else{
+//       alert("Username Non  valide "+document.querySelector("input").value.length)
+//    }
+// }
+// length
+let taille=str.length;
+
+
+let upperText=str.toUpperCase();
+let lowerText=upperText.toLowerCase();
+
+
+// Replace 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(taille);
+// console.log(upperText);
+// console.log(lowerText);
+
+// console.log(str.toUpperCase());
+
+
+let newstr=str.replace("omar","samir")
+
+// console.log(newstr);
+
+
+let password="      azerty  123      ";
+// Trim  TrimEnd
+// console.log(password);
+// console.log("Le nombre de caractere aprés le trim c'est "+password.trim().length+" ");
+
+
+
+// Startswith && endsWith   (boolean)
+
+let str2="username2@gmail.com";
+ 
+
+// console.log(str2); 
+
+
+// let commenceavec=str2.startsWith("ello");
+// let termineavec=str2.endsWith("world");
+// console.log(commenceavec);
+// console.log(termineavec);
+
+
+// slice
+
+ username=str2.slice(0,9);
+
+// console.log(username)
+
+// includes 
+
+
+console.log(str2.includes("z"));
+
+let name="Samir";
+let lastname="KARIM";
+
+
+console.log(name.concat(lastname," hello"," thank you "))
+

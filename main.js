@@ -674,14 +674,14 @@ let str2="username2@gmail.com";
 // includes 
 
 
-console.log(str2.includes("z"));
+// console.log(str2.includes("z"));
 
 let name="Samir";
 let lastname="KARIM";
 age=20;
 
 // Literal Templates
-console.log(`Hello My name is ${name} ${lastname} and i have ${age} years old `.toUpperCase())
+// console.log(`Hello My name is ${name} ${lastname} and i have ${age} years old `.toUpperCase())
 // console.log(name+lastname);
 
 
@@ -737,8 +737,39 @@ else   you display an alert to annouce the error
 */
 
 // \n pour sauter la ligne 
-console.log("username:Chaoukat99\nage:20")
+// console.log("username:Chaoukat99\nage:20")
+
+
+// Correction
 
 
 
+
+
+let user=prompt("Veuillez Inserer votre username ?");
+age=prompt("Veuillez Inserer votre age ?");
+let email=prompt("Veuillez Inserer votre email ?");
+let passwordd=prompt("Veuillez Inserer votre password ?");
+let confirmPassword=prompt("Veuillez Inserer votre comfirm password ?");
+let error="";
+
+
+let testuser=user.length>5 && user.length<10?true:error=error+"Probléme de Username"  ;
+let testage=age>=18?true:error=error+" \n Probléme d'Age";
+let testemail=email.includes(user) && email.includes("@")?true:error=error+" \n Probléme d'Email";;
+let passtest=passwordd.trim().length>6 && passwordd.trim().length<12?true:error=error+" \n Probléme de Password";;
+let comfirmTest=confirmPassword.trim()==passwordd.trim()?true:error=error+" \n Probléme de confirmation de password ";;
+
+
+
+
+console.log(typeof("hello guys"))
+
+
+
+if(typeof(testuser) =="string" || typeof(testage) == "string" || typeof(testemail)== "string" || typeof(passtest) == "string" || typeof(comfirmTest) == "string"){
+   alert(error);
+}else{
+   alert(` Username : ${user}\n Age      : ${age}\nEmail    : ${email}\n Password : ${passwordd}\n ConfirmPass : ${confirmPassword}`); 
+}
 

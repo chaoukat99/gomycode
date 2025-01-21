@@ -678,7 +678,67 @@ console.log(str2.includes("z"));
 
 let name="Samir";
 let lastname="KARIM";
+age=20;
+
+// Literal Templates
+console.log(`Hello My name is ${name} ${lastname} and i have ${age} years old `.toUpperCase())
+// console.log(name+lastname);
 
 
-console.log(name.concat(lastname," hello"," thank you "))
+
+
+
+// concat for concatenation
+// console.log(name.concat(lastname," hello"," thank you ","jeje"))
+
+
+
+
+
+// Exercice 
+
+
+
+// First Instructions
+
+
+// 5 prompt    (username,age,email, password,confirm password)
+
+
+
+// Validation part 
+/*
+
+-username should be between 6 and 10 caracters
+-age should be greater than or equal 18
+-email should contains the username and the @ caracter
+-password should be between 10 and 20 caracter
+-confirm password should be equal to the password
+
+
+
+*/
+
+
+/*
+
+if all of fields respect validation you display an alert of data inserted 
+       
+           Affichage:
+
+                       // Username:CHaoukat99
+                       // Email:Chaoukat99@gmail.com
+                       // age:20
+                       // password:chaoukat12345
+                       // confirmpassword:chaoukat12345
+
+else   you display an alert to annouce the error
+
+*/
+
+// \n pour sauter la ligne 
+console.log("username:Chaoukat99\nage:20")
+
+
+
 

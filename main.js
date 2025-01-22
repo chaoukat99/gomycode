@@ -45,7 +45,7 @@ let facebookUsername=username;    //  let  facebookUsername="Karim"
 
 
 
-const PI=3.14763833948;  // readonly 
+// const PI=3.14763833948;  // readonly 
 
 
 const Username2="SAMIR";
@@ -746,30 +746,153 @@ else   you display an alert to annouce the error
 
 
 
-let user=prompt("Veuillez Inserer votre username ?");
-age=prompt("Veuillez Inserer votre age ?");
-let email=prompt("Veuillez Inserer votre email ?");
-let passwordd=prompt("Veuillez Inserer votre password ?");
-let confirmPassword=prompt("Veuillez Inserer votre comfirm password ?");
-let error="";
-
-
-let testuser=user.length>5 && user.length<10?true:error=error+"Probléme de Username"  ;
-let testage=age>=18?true:error=error+" \n Probléme d'Age";
-let testemail=email.includes(user) && email.includes("@")?true:error=error+" \n Probléme d'Email";;
-let passtest=passwordd.trim().length>6 && passwordd.trim().length<12?true:error=error+" \n Probléme de Password";;
-let comfirmTest=confirmPassword.trim()==passwordd.trim()?true:error=error+" \n Probléme de confirmation de password ";;
+// let user=prompt("Veuillez Inserer votre username ?");
+// age=prompt("Veuillez Inserer votre age ?");
+// let email=prompt("Veuillez Inserer votre email ?");
+// let passwordd=prompt("Veuillez Inserer votre password ?");
+// let confirmPassword=prompt("Veuillez Inserer votre comfirm password ?");
+// let error="";
 
 
 
+// let testuser=user.length>5 && user.length<10?true:error=error+"Probléme de Username"  ;
+// let testage=age>=18?true:error=error+" \n Probléme d'Age";
+// let testemail=email.includes(user) && email.includes("@")?true:error=error+" \n Probléme d'Email";;
+// let passtest=passwordd.trim().length>6 && passwordd.trim().length<12?true:error=error+" \n Probléme de Password";;
+// let comfirmTest=confirmPassword.trim()==passwordd.trim()?true:error=error+" \n Probléme de confirmation de password ";;
 
-console.log(typeof("hello guys"))
 
 
 
-if(typeof(testuser) =="string" || typeof(testage) == "string" || typeof(testemail)== "string" || typeof(passtest) == "string" || typeof(comfirmTest) == "string"){
-   alert(error);
-}else{
-   alert(` Username : ${user}\n Age      : ${age}\nEmail    : ${email}\n Password : ${passwordd}\n ConfirmPass : ${confirmPassword}`); 
-}
+// console.log(typeof("hello guys"))
 
+
+
+// if(typeof(testuser) =="string" || typeof(testage) == "string" || typeof(testemail)== "string" || typeof(passtest) == "string" || typeof(comfirmTest) == "string"){
+//    alert(error);
+// }else{
+//    alert(` Username : ${user}\n Age      : ${age}\nEmail    : ${email}\n Password : ${passwordd}\n ConfirmPass : ${confirmPassword}`); 
+// }
+
+
+
+
+// age=20;
+// let test100;
+
+// if(age>=18){
+//    test100=true;
+   
+// }else{
+//   test100=false;
+   
+// }
+
+// test100=age>=18;
+// console.log(age>=18?"Adulte":"Mineur");
+
+// if(test100){
+//    console.log("hello world");
+// }else{
+//    console.log("false result")
+// }
+
+
+
+//   Number & Math object methods
+// let numberr1="20.5";
+// let numberr2="2";
+// console.log(+numberr1+ (+numberr2));
+// parseInt("valeur");
+// parseFloat("valeur");
+// Number.isInteger(my_number)
+
+// let stringNumber="20.5";
+// let convertToNumber=+stringNumber;
+// console.log(typeof(stringNumber));
+// console.log(typeof(convertToNumber));
+// console.log(parseInt(stringNumber));
+// console.log(parseFloat(stringNumber));
+
+
+
+// console.log(Number.isInteger(12.50));
+
+
+
+
+
+// Math object 
+
+// Max
+
+let val1=200;
+// console.log(Math.max(10,20,-5,14,0,-55,21,100,val1));
+// console.log(Math.min(10,20,-5,14,0,-55,21,100));
+
+let floatnumber=12.01; 
+// Floor diminuer
+
+console.log(Math.floor(floatnumber))
+
+// Ceil augmente 
+console.log(Math.ceil(floatnumber))
+
+// Round  automatique en se basant sur 5
+console.log(Math.round(floatnumber))
+
+// Random
+
+
+// console.log(Math.random()) // entre 0 et 1
+
+
+
+// let RandomNum=Math.floor(Math.random()*6)
+// console.log(RandomNum);
+
+
+
+
+
+
+// let UpperC="AZERTYUIOPQSDFGHJKLWXCVBN";
+// let LowerC=UpperC.toLowerCase();
+// let Digits="0123456789";
+// let special="&é'(-è_çà)=@!:;<>"
+
+// let rand1=Math.floor(Math.random()*UpperC.length); 
+// let rand2=Math.floor(Math.random()*LowerC.length);
+// let rand3=Math.floor(Math.random()*Digits.length);
+// let rand4=Math.floor(Math.random()*special.length);
+
+
+// // console.log(UpperC[rand1]+LowerC[rand2]+Digits[rand3]+special[rand4])
+// // console.log(rand1+rand2+rand3+rand4)
+
+// console.log(UpperC[12]);
+
+
+// let options="ABCD";
+
+// let my_random=Math.floor(Math.random()*options.length);
+
+
+// let user_Prompt=prompt("Essaier de choisir entre A , B , C, D");
+
+
+
+// if(user_Prompt==options[my_random]){
+//    alert("Tu as Gagné car JS a choisi "+options[my_random])
+// }else{
+//    alert("Tu as Perdu car JS a choisi "+options[my_random])
+
+// }
+
+
+// For while do while
+
+
+// for(let i=0;i<5;i++){
+//    prompt(`Prompt ${(i+1)}`); 
+// }

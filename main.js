@@ -830,16 +830,16 @@ let val1=200;
 // console.log(Math.max(10,20,-5,14,0,-55,21,100,val1));
 // console.log(Math.min(10,20,-5,14,0,-55,21,100));
 
-let floatnumber=12.01; 
+// let floatnumber=12.01; 
 // Floor diminuer
 
-console.log(Math.floor(floatnumber))
+// console.log(Math.floor(floatnumber))
 
 // Ceil augmente 
-console.log(Math.ceil(floatnumber))
+// console.log(Math.ceil(floatnumber))
 
 // Round  automatique en se basant sur 5
-console.log(Math.round(floatnumber))
+// console.log(Math.round(floatnumber))
 
 // Random
 
@@ -889,10 +889,174 @@ console.log(Math.round(floatnumber))
 
 // }
 
-
+// Les Boucles
 // For while do while
 
 
 // for(let i=0;i<5;i++){
 //    prompt(`Prompt ${(i+1)}`); 
 // }
+
+
+
+// For Loop
+
+
+
+
+
+// While Loop
+
+
+
+
+
+
+// Do While Loop 
+
+
+
+// continue break 
+
+// console.log(y);
+
+
+// debut fin de la boucle 
+
+// 
+
+
+// let chaine="nassim";
+
+// let somme=0;
+// for(let i=0;i<10;i++){
+    
+//   somme=somme+i;
+
+// }
+
+// console.log(somme);
+// for(let i=0;i<100;i++){
+
+//    arrsomme=arrsomme+arr[i];
+// }
+
+// console.log(arrsomme);
+
+
+
+// console.log("Fin de programme")
+
+// 0 true 0+1  hello
+// 1 true 1+1  hello 
+// 2 true 2+1  hello
+// 3 true 3+1  hello 
+// 4 true 4+1  hello
+// ---------------
+
+// 100 false
+// 5 false 
+
+
+
+// while(condition){ } si  la condition est true on va repeter sinon on va briser la boucle
+/*
+while logic :
+
+1-verifie si la condition est vraie (True)
+2-SI la cond est Vraie elle va exexuter le code 
+sion elle va pas l'éxécuter 
+
+*/
+// let counter=0;
+// while(confirm("You to repeat the while loop ?")){
+
+//    counter++;
+   
+//    console.log("Tu a accepter le confirme "+counter);
+
+
+// }
+
+
+
+// let y=0;
+
+// while(y<10){
+
+    
+//    console.log(y);
+//    y=y+1;
+// }
+
+
+
+
+
+
+
+// do while
+
+/*
+
+
+
+
+*/
+// do{
+//    console.log("Tu a accepter le confirme ");
+// }
+// while(confirm("You to repeat the while loop ?"))
+
+
+
+
+
+
+
+
+
+// Break;
+
+// 10000 client    200 
+
+
+
+// for(let i=0;i<10;i++){
+
+
+  
+//    console.log("This is iteration number "+(i));
+//    if(i==5){
+//       break;
+//    }
+// }
+
+
+
+
+
+// console.log("Le reste du ")
+
+
+
+
+
+// for(let i=0;i<10;i++){
+//   if(i==5){
+//    continue;
+//   }
+//    console.log(i);
+// }
+
+
+
+
+// Tableaux Objects Date  Exceptions
+
+
+// Functions 
+
+
+
+// DOM & BOM 

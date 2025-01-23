@@ -4,7 +4,10 @@ firstname="Salah"
 
 # string Formating 
 
-print(f"Hello My name is {name}  {firstname}  ")
+
+
+for i in range(10):
+    print(i)
 
 
 

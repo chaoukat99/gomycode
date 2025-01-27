@@ -1054,9 +1054,197 @@ sion elle va pas l'éxécuter
 
 // Tableaux Objects Date  Exceptions
 
+// camelCase 
+
+let githubUser="Karim"; 
+
+
+
+
+
+let myEmail="www.google.fr"; 
+
+
+
+//  string method (split)
+
+// let newTab=myEmail.split(".");
+
+// console.log(newTab[newTab.length-1]);
+
+
+
+// Talbeaux 
+
+
+// CRUD (CREATE READ UPDATE DELETE)
+
+// let Tab=["Samir","Karim","Ilyas","Oussama","Salim"]; 
+
+// for(let i of Tab){
+//    console.log(`Bonjour MR ${i.toUpperCase()} `)
+// }
+
+
+// Tab.forEach(el=>console.log(`Bonjour MR ${el.toUpperCase()} `));
+
+// Array.isArray(Tab)
+
+// La taille du tableau length
+
+// READ
+
+// for(let i=0;i<Tab.length;i++){
+
+//    console.log(Tab[i]);
+   
+// }
+
+
+
+// for( let i of Tab){
+//    console.log(i);
+   
+// }
+
+
+
+// let salary=20000.55;
+
+
+// console.log(`The salary of a software Engineer is ${salary}`)
+
+
+// for(let i=0;i<6;i++){
+//    console.log(Tab[i]);
+   
+// }
+
+// console.log(Tab);
+
+//
+// console.log(Tab.length);
+
+// console.log(Tab[Tab.length-1]);
+
+// console.log(Tableau[Tableau.length-1])
+
+
+// let Tab=["Samir","Karim","Ilyas","Oussama","Salim"]; 
+
+// console.log(Tab);
+
+// Tab[2]="SABIR";
+
+// Tab[Tab.length-1]="KHADIJA";
+
+// console.log(Tab);
+
+
+// Array methodes
+
+let arr=[10,20];
+
+console.log(arr);
+
+// Vider le tableau 
+// arr.length=0;
+
+// Delete the last item of the array  pop 
+
+
+// arr.pop();
+
+// Delete the first item of the array  pop 
+
+// arr.shift();
+// arr.shift();
+// let deletedItem=arr.pop();
+   
+// arr.pop();
+
+
+
+
+// arr=[];
+
+// arr.length=0;
+
+
+
+// console.log("La valeur supprimé est : "+deletedItem);
+
+
+
+
+// Insert New Item on the back of the array 
+
+arr.push(20,"SAMIr","Karim",40);
+
+// Insert New Item on the front of the array
+
+
+arr.unshift("Sara")
+
+console.log(arr);
+
+
+
+
+
+
+
+
 
 // Functions 
 
 
 
 // DOM & BOM 
+
+
+
+
+
+//OOP 
+
+
+
+
+
+// HOF 
+
+
+
+/*
+
+
+Exercice : 
+
+
+- tu vas demande a l'utilisateur d'inserer combien de fois les utilisateur (prompt)
+
+- Prompt ou tu vas insérer le nom d'utilisateur 
+
+
+- Afficher les utilisateurs insérer en format Tableaux
+
+utilisez Les tableux les boucles el la methode Push
+
+*/ 
+
+let Users=[];
+// ...
+
+
+
+let userCount=prompt("How much users you want to insert");
+
+for(let i=0;i<userCount;i++){
+
+   let user=prompt("Inserer Utilisateur Numero "+(i+1))
+   Users.push(user);
+}
+
+
+console.log(Users);

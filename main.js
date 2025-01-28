@@ -1184,9 +1184,9 @@ arr.push(20,"SAMIr","Karim",40);
 // Insert New Item on the front of the array
 
 
-arr.unshift("Sara")
+// arr.unshift("Sara")
 
-console.log(arr);
+// console.log(arr);
 
 
 
@@ -1232,19 +1232,241 @@ Exercice :
 utilisez Les tableux les boucles el la methode Push
 
 */ 
+let Username="Karim";
+let Users=["hzjhdz", 20,20];
 
-let Users=[];
+
 // ...
 
+// console.log(Users);[Users.length-1]
 
 
-let userCount=prompt("How much users you want to insert");
 
-for(let i=0;i<userCount;i++){
 
-   let user=prompt("Inserer Utilisateur Numero "+(i+1))
-   Users.push(user);
+// let userCount=prompt("How much users you want to insert");
+
+// for(let i=0;i<userCount;i++){
+
+//    let User=prompt("Enter User Data");
+//    Users.push(User)
+  
+// }
+
+
+// console.log(Users);
+
+
+
+
+
+// HOF   forEach Filter map reduce find findIndex
+ 
+
+let USERS=["Karim","Samir","Omar","Khadjia"];
+
+let nums=[12,15,3,17,20,22,"4",-5,"24","Omar"];
+
+
+// nombre%2=0
+// let PairNums=[];
+
+// Bloc of code 
+
+
+// for(let i of nums){
+//    if( typeof(i)=="number" && i%2 == 0){
+//       PairNums.push(i)
+//    }
+// }
+
+
+// console.log(nums);
+// console.log(PairNums);
+
+
+// let NewUsers=[];
+
+
+// for(let i of USERS){
+
+//    if(i!="Omar"){
+//       NewUsers.push(i);
+    
+//    }
+// }
+
+// console.log(USERS);
+
+// console.log(NewUsers);
+
+
+
+
+// let notes=[12,18,5,19,20];
+
+
+
+// let nombreDeMatiere =notes.length;
+
+
+
+// let somme=0;
+
+
+// for(let i of notes){
+
+//    somme=somme+i; 
+                 
+// }
+// Moyenne
+
+
+// let Moyenne=somme/nombreDeMatiere
+
+
+// console.log(somme);
+
+// Methode Des Tableau
+
+
+// let ProductTable=["Product1","Product2","Product3","Product4"];
+
+// include
+// console.log(ProductTable.includes("Product44"));
+
+
+// let stringBasedOnTable=ProductTable.join(" ");
+
+// console.log(stringBasedOnTable);
+
+
+// console.log(ProductTable);
+
+// console.log("-".repeat(200))
+
+
+// console.log(ProductTable.concat("Procut5","Product6"))
+
+
+// console.log(ProductTable.slice(0,2))
+
+
+// console.log(ProductTable.reverse());
+
+
+// const names=[7,9,5,6]
+
+
+
+// console.log(names.sort().reverse());
+
+
+
+
+
+
+
+// let chaine="hello@world@les@amis";
+
+
+
+// console.log(chaine.split("@"))
+
+
+// Join 
+
+
+
+
+
+
+let phrase="hello My name Is Omar and Omar is an arabian name";
+
+
+let OneLine=phrase.split(" ").filter(omar=>omar!=="Omar").join(" ");
+console.log(OneLine);
+// let newTable=phrase.split(" ");
+
+// let newTab=[];
+
+// for(let i of newTable ){
+//    if(i!=="Omar"){
+//       newTab.push(i)
+//    }
+// }
+// console.log(newTable);
+// console.log(newTab);
+
+// console.log(newTab.join(" "))
+
+
+// console.log(phrase.replace("Omar",""));
+
+
+
+
+
+/* -Commentaire
+
+
+ Notions de base  / Web (dom bom) / React js
+ Notions de base : 
+   -Variables / Constante
+   -Types de Données 
+   -Concatenation (string)
+   -Operateurs (Arithmetique comparaison Logique)
+   -Control Flow:
+       -Condition (if , if else , if else imbriqué, switch , conditon?true:false )
+       -Methode de string (replace , trim ,toUppercase())
+       -Methode de number (ParseInt +)  (Math round floor max min random)
+       -Boucle (for    while    do while)
+       -Tableaux(Crud & methodes de tableau )
+       -Functions (Programmation procedurale )
+       -Objects 
+       -HOC
+       -Date
+       -Exceptions 
+
+
+
+
+
+*/
+
+
+
+
+//  
+
+
+let option =["rock","paper","cisor"];
+
+
+
+let random_num=Math.floor(Math.random()*option.length)  
+
+
+let userEntry=prompt("Veuillez Selectionné soit : Rock Paper Cisor");
+
+
+let computerChoice=option[random_num];
+
+
+
+if(computerChoice=="rock" && userEntry=="rock"){
+   alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
+}else if(computerChoice=="rock" && userEntry=="paper"){
+   alert(`You win because the game select ${computerChoice}`)
+}else if(computerChoice=="rock" && userEntry=="cisor"){
+   alert(`You lost because the game select ${computerChoice}`)
+
+}else if(computerChoice=="paper" && userEntry=="paper"){
+   alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
+
 }
 
 
-console.log(Users);
+
+console.log()
+
+

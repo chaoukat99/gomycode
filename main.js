@@ -1384,7 +1384,7 @@ let phrase="hello My name Is Omar and Omar is an arabian name";
 
 
 let OneLine=phrase.split(" ").filter(omar=>omar!=="Omar").join(" ");
-console.log(OneLine);
+// console.log(OneLine);
 // let newTable=phrase.split(" ");
 
 // let newTab=[];
@@ -1439,34 +1439,368 @@ console.log(OneLine);
 //  
 
 
-let option =["rock","paper","cisor"];
+// let option =["rock","paper","cisor"];
 
 
 
-let random_num=Math.floor(Math.random()*option.length)  
+// let random_num=Math.floor(Math.random()*option.length)  
 
 
-let userEntry=prompt("Veuillez Selectionné soit : Rock Paper Cisor");
+// let userEntry=prompt("Veuillez Selectionné soit : Rock Paper Cisor");
 
 
-let computerChoice=option[random_num];
+// let computerChoice=option[random_num];
 
 
 
-if(computerChoice=="rock" && userEntry=="rock"){
-   alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
-}else if(computerChoice=="rock" && userEntry=="paper"){
-   alert(`You win because the game select ${computerChoice}`)
-}else if(computerChoice=="rock" && userEntry=="cisor"){
-   alert(`You lost because the game select ${computerChoice}`)
+// if(computerChoice=="rock" && userEntry=="rock"){
+//    alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
+// }else if(computerChoice=="rock" && userEntry=="paper"){
+//    alert(`You win because the game select ${computerChoice}`)
+// }else if(computerChoice=="rock" && userEntry=="cisor"){
+//    alert(`You lost because the game select ${computerChoice}`)
 
-}else if(computerChoice=="paper" && userEntry=="paper"){
-   alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
+// }else if(computerChoice=="paper" && userEntry=="paper"){
+//    alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
 
+// }else if(computerChoice=="paper" && userEntry=="cisor"){
+//    alert(`You win because the game select ${computerChoice}`)
+   
+
+// }else if(computerChoice=="paper" && userEntry=="rock"){
+//    alert(`You lost because the game select ${computerChoice}`)
+    
+// }else if(computerChoice=="cisor" && userEntry=="cisor"){
+//    alert(`Egalité par ce que le jeu a chois ${computerChoice}`)
+
+// }else if(computerChoice=="cisor" && userEntry=="rock"){
+//    alert(`You win because the game select ${computerChoice}`)
+
+// }else if(computerChoice=="cisor" && userEntry=="paper"){
+//    alert(`You lost because the game select ${computerChoice}`)
+
+// }else{
+//    alert("Invalide Entry");
+// }
+
+
+
+let numone =10;
+let numtwo =20;
+
+
+console.log(numone+numtwo);
+
+
+let numThree=20;
+let numFour= 5;
+
+
+console.log(numThree+numFour);
+
+
+// Repetition
+
+// Fonction vs Procedure 
+
+
+
+
+//   function  Nom_de_la_fonction()
+
+
+// function  SayHello(){
+
+//    // Cette fonction Affiche un texte sur le console
+
+//    return "Hello User";
+
+// }
+
+// console.log(SayHello());
+
+// function Adition(){
+//     return 100+30;
+
+// }
+
+
+// function Soutraction(){
+//    let resultas=100-30;
+//    return resultas;
+
+// }
+
+
+// let addit=100+30;
+// console.log(addit);
+
+// console.log(Soutraction());
+
+
+
+// console.log(Adition());
+
+
+/*
+
+
+
+// Les Paramétres et les arguments 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+code 
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+// Fonctionnel  
+
+
+// Fonction vs Procedures
+
+
+// function AddUser(){
+// // bloc of code
+
+// }
+
+
+
+// function DeleteUser(){
+//    // bloc of code
+// }
+
+
+
+// function UpdateUser(){
+//    // bloc of code
+// }
+
+
+
+
+
+
+// params & args
+
+// function SayHelloToUser(user){
+//    return "Hello Mr "+user;
+
+// }
+
+
+
+// function Add(num1,num2){
+//    return num1+num2;
+// }
+
+
+
+
+
+// console.log(Add(100,12));
+// console.log(Add(100,12));
+// console.log(SayHelloToUser("Omar"));
+// console.log(SayHelloToUser("Houssem"));
+
+
+
+
+
+// function CalculerAge(){
+
+//    let user_year_of_birth=prompt("Veuillez inserer L'année de naissance");
+
+//    const CurrentYear=2025;
+
+
+//    return CurrentYear-(+user_year_of_birth);
+// }
+
+
+
+
+// function ToDarkMode(){
+//    document.body.style.transition="2s";
+//    document.body.style.backgroundColor="#12110f";
+// }
+
+
+
+// function ToLightMode(){
+//    document.body.style.transition="2s";
+//    document.body.style.backgroundColor="white";
+
+// }
+
+
+
+// let btnlight=document.querySelector("#light");
+// let btndark=document.querySelector("#dark");
+
+
+
+
+// btndark.onclick=()=>{
+//    ToDarkMode();
+   
+// }
+
+
+// btnlight.onclick=()=>{
+
+//    ToLightMode();
+// }
+
+
+
+
+// console.log(CalculerAge())
+// 
+// console.log(SayHelloToUser("Omar"));
+// console.log(SayHelloToUser("Samir"));
+// console.log(SayHelloToUser("Houssem"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(CalculerAge());
+
+
+
+// Exercice : Fonction math  Add Sous Multi Div 
+
+
+
+
+
+
+/*
+code 
+
+*/
+
+function Add(a,b){
+   return a+b;
+}
+
+function Sous(a,b){
+   return a-b;
+}
+
+function Multi(a,b){
+   return a*b;
 }
 
 
+function Div(a,b){
+    return b!=0?a/b:"ImPossible";
+}
 
-console.log()
+//  let numm1= prompt("Donner le premier Nombre")
+//  let numm2= prompt("Donner le deuxiéme Nombre")
+//  let operation=prompt("Veuillez Choisir add(+) ou bien soustarction(-) ou bien Multiplication(x) ou bien Division(/)")
+
+
+
+
+
+
+//  switch(operation){
+
+
+//    case "+":{
+//       alert(Add(+numm1,+numm2));
+//    }
+//    break;
+//    case "-":{
+//       alert(Sous(numm1,numm2));
+//    }
+//    break;
+//    case "*":{
+//       alert(Multi(numm1,numm2));
+//    }
+//    break;
+//    case "/":{
+//       alert(Div(numm1,numm2));
+//    }
+//    break;
+
+//  }
+
+
+
+
+
+
+
+
+ function SayHello(user="Rabat"){
+   return "hello from "+user;
+ }
+
+
+
+ console.log(SayHello("Casablanca"));
+ console.log(SayHello("Fes"));
+ console.log(SayHello());
+
+
+//  arrow function  & anonymous function
+
+
 
 

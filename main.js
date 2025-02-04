@@ -1737,6 +1737,11 @@ function Add(a,b){
    return a+b;
 }
 
+
+let result=Add(10,2);
+console.log(result);
+
+
 function Sous(a,b){
    return a-b;
 }
@@ -1788,15 +1793,14 @@ function Div(a,b){
 
 
 
- function SayHello(user="Rabat"){
-   return "hello from "+user;
- }
 
 
 
- console.log(SayHello("Casablanca"));
- console.log(SayHello("Fes"));
- console.log(SayHello());
+
+
+//  console.log(SayHello("Casablanca"));
+//  console.log(SayHello("Fes"));
+//  console.log(SayHello());
 
 
 //  arrow function  & anonymous function
@@ -1804,3 +1808,245 @@ function Div(a,b){
 
 
 
+
+
+
+
+// function checkAge(age){
+
+
+   
+//    if(age>=18){
+
+//       alert("Adulte");
+      
+//    }else{
+//       alert("Mineur");
+//    }
+// }
+
+
+
+
+
+// let userAge=prompt("Veuillez insérer votre age");
+
+
+// checkAge(userAge);
+
+
+function AddNewProduct(arr,product){
+   arr.push(product);
+   console.log(`Product With name ${product} est inséré `);
+
+}
+
+
+let ProductsTab=[];
+
+
+// let count=prompt("Combien de produits vous voulez insérer");
+// for(let i=0;i<count;i++){
+//    let product=prompt(`Veuillez Insérer le Produit numero ${i+1}`);
+//    // AddNewProduct(ProductsTab,product);
+   
+
+// }
+
+
+console.log(ProductsTab);
+
+
+
+
+
+
+function Nom(){
+   // iplementation
+}
+
+
+
+// Anonymous Function 
+
+// function(){
+   // implementation
+// }
+
+
+// Arrow Function 
+// 
+// ()=>{ // bloc of code  }
+
+
+// let btn=document.querySelector("#light");
+// let btn2=document.querySelector("#dark");
+
+
+
+// btn.onclick=function(){
+//    // code a executé
+ 
+// }
+
+
+// Objects
+
+
+// key : value
+
+
+let user={
+   firstname:"Samir",
+   lastname:"Fillali",
+   age:20,
+   profession:"Web developer"
+}
+
+
+
+
+
+
+// let product=[1,"TV",2000,"SAMSUNG"];
+
+
+
+// btn2.onclick=function(){
+//    console.log("hello world");
+// }
+
+
+
+
+// btn2.onclick= ()=>{
+//    // bloc Of code 
+//    document.body.style.background="orange";
+// }
+
+
+
+
+
+
+// let etudiant={
+//    Identifiant:"K1283827",
+//    nomComplet:"Samir Samiri",
+//    Niveau:"Bac",
+//    Ville:"RABAT",
+//    is_connected:false,
+//    notes:[
+//       {
+//          matiere:"Math",
+//          note:20,
+  
+//       },
+//       {
+//          matiere:"Sport",
+//          note:15
+//       }
+//    ],
+
+
+//    ecole:{
+//       nom:"Lycee x",
+//       position:"",
+//       public:false,
+//    }
+
+
+// }
+
+
+
+let product2={
+   id:1,
+   name:"TV",
+   price:5000.50,
+   marque:"SAMSUNG",
+   
+}
+
+// Read lecture des valeurs
+
+// pour Afficher v1
+console.log(product2.name)
+console.log(product2.price)
+console.log(product2.marque)
+console.log(product2.id)
+
+//  pour Afficher v2
+
+console.log(product2["name"]);
+// Update 
+
+
+product2.name="SmartPhone";
+product2.marque="LENOVO";
+
+
+product2.taxe=0.2;
+
+
+
+
+
+
+// Delete
+
+console.log(product2)
+delete product2.marque
+console.log(product2)
+
+
+// console.log(product2.name)
+// console.log(product2.marque)
+
+// console.log(etudiant)
+
+let arr2=["karim","salim"]
+
+
+let USERs=[
+   {
+      id:1,
+      username:"Karim",
+      email:"karim@gmail.com",
+      password:"karim123"
+   },
+   {
+      id:2,
+      username:"Sara",
+      email:"Sara@gmail.com",
+      password:"Sara123"
+   },
+   {
+      id:3,
+      username:"Salim",
+      email:"Salim@gmail.com",
+      password:"Salim123"
+   }
+]
+
+
+
+// hello my name is Samir my email is emaik@gmail.com  my passord is karim123
+
+
+
+// for loop pour parcourir aux elements
+
+
+
+
+for(let i of  USERs){
+   console.log(`hello my name is ${i.username} my email is ${i.email}  my passord is ${i.password}`);
+}
+
+
+console.log("****".repeat(30))
+
+// USERs[0].email
+for(let i=0;i<USERs.length;i++){
+   console.log(`hello my name is ${USERs[i].username} my email is ${USERs[i].email}  my passord is ${USERs[i].password} `)
+}

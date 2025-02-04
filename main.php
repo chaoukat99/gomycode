@@ -2,5 +2,7 @@
 
 
 $username="Samir";
-
+foreach(){
+    
+}
 ?>

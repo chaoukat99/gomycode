@@ -1,4 +1,90 @@
+.active{
+
+
+color: black;
+
+background-color: #eee;
+
+border-left: solid 4px red;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+
+
 .dark{
-    background-color: rgb(200, 13, 13);
+    background-color: #1c1c1c;
+ 
     color: white;
+}
+
+
+
+
+.popup{
+    width: 300px;
+    height: 70px;
+    background-color: #eee;
+    
+    border-left: solid 5px red;
+    font-family: cursive;
+    font-weight:bold ;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 8px;
+    position: relative;
+    }
+
+
+.popup span{
+    color: red;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.popup  p{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+
+.parent{
+
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav{
+    width: 300px;
+    background-color: #312e2e;
+    height:fit-content;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+
+nav li{
+   margin:  20px 0px;
+   text-align: center;
+   background-color: rgb(59, 134, 225);
+   padding: 10px;
+   cursor: pointer;
+   color: whitesmoke;
+   font-family: cursive;
+   transition: .5S;
+}
+
+nav li:hover{
+    box-shadow: 1px 1px 10px white;
+    scale: 1.06;
 }

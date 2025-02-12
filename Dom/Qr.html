@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="./lib/qr.js"></script>
+</head>
+<body>
+    <div id="myqrcode"></div>
+    <button>Download</button>
+    <script type="text/javascript">
+    new QRCode(document.getElementById("myqrcode"),"Facture N 126336\nProduit X : 20000$");
+    </script>
+
+
+    <script>
+        window.onload=()=>{
+        
+        let image = document.images;
+        document.querySelector("button").onclick=()=>{
+        
+        let a=document.createElement("a");
+        a.href=image[0].src;
+        a.innerText="Download";
+         a.download="Qr code ";
+         a.click();
+
+        }
+
+         
+        }
+    </script>
+</body>
+</html>

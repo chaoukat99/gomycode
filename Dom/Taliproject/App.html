@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.1.0/introjs.min.css">
+    <style>
+        .introjs-button.introjs-nextbutton{
+        
+        color: white;
+        background-color: green;
+        }
+        .introjs-tooltip{
+        background-color: rgb(47, 41, 41);
+
+        border-radius: 10px;
+        color: white;
+        box-shadow: 1px 1px 10px blue;
+        }
+    </style>
+</head>
+<body>
+  <button class="btn">CLick to start the guide</button>
+
+  <h1 id="title1">tITLE</h1>
+  <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam possimus error, cumque ratione eligendi nam reiciendis, quaerat magni a suscipit saepe. Iure sed culpa quos, molestiae saepe quidem deleniti quas eligendi earum quia fuga alias ab quaerat minus ea hic illo. Ipsum sit recusandae similique mollitia, at in quia eius cupiditate corporis nisi, expedita natus optio. Molestias, quos vero. Quis harum repudiandae dicta eligendi delectus natus. Eum dolorem temporibus sint modi at. Corporis laboriosam est totam dolorum omnis quisquam deserunt? Tenetur ipsum fugiat perferendis voluptate maxime quo ipsam, ducimus soluta assumenda optio nisi similique vitae distinctio facilis esse unde!</p>
+  <img src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" id="img" alt="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.1.0/intro.min.js"></script>
+    <script>
+       
+
+
+
+        document.querySelector(".btn").addEventListener("click", function() {
+            introJs().setOptions({
+                steps: [
+                    { 
+                        element: "#title1", 
+                        intro: "<marquee>hello</marquee>"
+                    },
+                    { 
+                        element: "#para", 
+                        intro: "This paragraph gives information."
+                    },
+                    { 
+                        element: "#img", 
+                        intro: "this is my image "
+                    }
+                ]
+            }).start();
+        });
+    </script>
+</body>
+</html>

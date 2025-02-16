@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label,input{
+        display: block;}
+    </style>
+</head>
+<body>
+    
+    <h1>Formulaire :</h1>
+
+    <form action="" method="post">
+       
+         <!-- Input  
+          type :
+
+          text
+          email
+          password
+          search
+          number
+          file
+          date
+          range
+
+
+          Buttons:  submit , reset , button
+          Exercice : 
+          
+-Username ou email
+-Password
+-button Se connecter
+
+          
+        
+        -->
+         <label for="">Username</label>
+         
+       <input type="text" placeholder="Saisir Le nom d'utilisteur" >
+       
+       
+       <label for="">Email</label>
+  
+      
+     <input type="email">
+      
+       <label for="">Password</label>
+      
+      
+     <input type="password" placeholder="Mot de Passe">
+    
+     <label for="">Search</label>
+     <input type="search" name="" id="">
+     <label for="">Age:</label>
+     <input type="number" name="" id="">
+     <label for="">File</label>
+     <input type="file" name="" id="">
+     <hr>
+     <label for="">Date</label>
+     <input type="date" name="" id="">
+     <label for="">Temps</label>
+     <input type="time" name="" id="">
+
+     <label for="">Timestamp</label>
+     <input type="datetime-local" name="" id="">
+     <label for="">Months</label>
+     <input type="month" name="" id="">
+     <label for="">Weeks</label>
+     <input type="week">
+
+     <hr>
+
+     <label for="">Sexe :</label>
+     <label for="f">Femme</label>
+     <input type="radio"  name="gender" id="f">
+     <label for="h">Homme</label>
+     <input type="radio" name="gender" id="h">
+
+     <hr>
+
+     <input type="checkbox" checked name="" id="">
+     <input type="checkbox" name="" id="">
+     <input type="checkbox" name="" id="">
+
+     <label for="">Color</label>
+     <input type="color" name="" id="color">
+     <label for="">Range</label>
+     <input type="range" name="" id="">
+     <input type="tel" name="" id="">
+     <hr>
+
+     <select name="" id=""  multiple>
+        <option value="">Veuillez Selectionner</option>
+        <option value="Html" >Html</option>
+        <option value="Css" selected>Css</option>
+        <option value="Js">Js</option>
+     </select>
+     <button>Envoyer</button>
+     <br>
+   
+   <textarea rows="10" cols="100" name="" id=""  placeholder="veuillez saisir votre message"></textarea>
+
+
+    </form>
+
+    <hr>
+    <form action="" method="get">
+
+        <label for="">Username or Email</label>
+        <input type="text" name="" id="" minlength="5" maxlength="10"   required>
+        <label for="">Age</label>
+        <input type="number" name="" min="5" max="64"  id="">
+        <label for="">Password * :</label>
+        <input type="password" name="" id="" required>
+        <input type="checkbox">
+        <button type="button">Se Connecter</button>
+    </form>
+
+</body>
+</html>
+
+

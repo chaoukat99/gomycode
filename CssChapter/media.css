@@ -1,0 +1,42 @@
+.my_div{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+h2{
+    display: none;
+}
+
+.primary{
+  color: blue;
+}
+
+.secondary{
+  color: purple;
+}
+
+
+@media (min-width:200px) and (max-width:560px){
+    .my_div{
+       display: none;
+    
+    }   
+
+    h2{
+        display: block;
+    }
+
+    img{
+
+      width: 100%;
+    }
+}
+
+@media (min-width:561px) and (max-width:800px) {
+    
+  .my_div{
+    background-color: green;
+  }
+
+}

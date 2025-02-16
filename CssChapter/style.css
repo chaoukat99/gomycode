@@ -1,0 +1,52 @@
+/*
+
+Commentaire Css
+
+
+color( changer la couleur du texte)
+background-color(changer la couleur de l'arriére plan)
+
+selecteur{
+property:value;
+}
+*/
+
+/* .my_class{
+    color: orange;
+}
+
+
+
+
+#madiv{
+    color: yellow;
+} */
+
+body{
+    background-color: red;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+
+button{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/* 
+Fonts 
+
+
+*/
+
+
+/* header .menu nav h1{
+
+} */

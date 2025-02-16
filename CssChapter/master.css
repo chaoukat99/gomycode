@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap');
+/* 
+Selecteur
+
+bytagname (nom de balise)
+
+id (#id)
+
+class (.classname)
+
+d'attribut
+
+Chaining Method
+
+
+
+Css Properties: 
+color: rgb , hex , colorname
+Background(color image size repeat position )
+background-image :linear-gradient(direction ,color1,color2,...)  Couleur Gradient(dégradé)
+
+
+Les Textes:
+
+Font
+
+
+*/
+
+
+
+
+/* p{
+    color: red;
+} */
+
+
+
+
+
+
+/* #my_para{
+    color: yellow;
+}
+
+.cls2{
+    color: blue;
+} */
+
+/* 
+input[type="number"]{
+    background-color: red;
+}
+
+
+a[href='https://wa.me/212233383838']{
+    color: red;
+}
+
+
+
+header h1{
+    color: red;
+}
+
+
+
+header nav a{
+
+    color: green;
+
+} */
+
+
+
+/* 
+Colors 
+-par nom de couleur
+-rgb (red green blue)  0 255
+-hex    #              0 f 
+
+*/
+
+
+/* body{
+    background-image: url(./images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+/* 
+h1{
+   color:#30b4d1 ;
+} */
+
+
+
+
+
+/* p{
+    color: #f00;
+} */
+
+
+
+
+.cls{
+
+   width: 800px;
+   height: 800px;
+  
+   background-image: url(./images/bg2.jpg);
+
+}
+
+
+
+img{
+    width: 100px;
+}
+
+
+#my_p{
+
+    width: 500px;
+}
+
+
+.cls3{
+
+    width: 200px;
+    height: 100px;
+   
+    
+
+}
+
+/* 
+
+Text:
+
+font-size          en px
+font-weight        bold 
+font-family
+font-style         italic oblique normal
+text-transform     uppercase lowercase capitalize
+text-align         right  left  center
+text-decoration    underline line-trough  overline none
+
+text-shadow        1px(x)  1px(y)  10px(opacity) red(color)
+
+*/
+
+
+
+p{
+    /* font-size: 100px; */
+    font-weight:bold;
+    text-decoration: line-through;
+}
+
+/* i{
+    background-color: black;
+    font-size: 100px;
+    color: red;
+} */
+
+
+#my_span{
+    font-style: oblique;
+}
+
+
+
+#arabic{
+    font-size: 30px;
+    font-family: "Cairo Play", serif;
+    direction: ltr;
+
+
+
+
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+
+.ancien{
+
+    text-decoration: overline;
+}
+
+
+a{
+
+    color: red;
+    text-decoration: none;
+}
+
+
+
+#logo{
+
+    color: red;
+    text-shadow: 1px 1px 10px blue;
+}
+
+
+h2{
+
+    font-size: 40px;
+    text-align: center;
+
+}
+
+h2 span{
+    color: red;
+   
+}
+
+
+
+.my_logo{
+    font-size: 100px;
+    font-family: cursive;
+    
+    
+}
+
+.my_logo .G{
+
+  
+    color: white;
+    background-color: bisque;
+    
+
+}
+/* body{
+
+    background-color: black;
+} */
+
+.my_logo{
+    text-decoration: underline red;
+    text-shadow: 1px 1px 10px blue;
+    text-transform: uppercase;
+    text-align: center;
+}
+.my_logo .o{
+    background-color: bisque;
+    color: white;
+}
+
+
+.my_logo .main{
+
+    color: white;
+    background-color:tomato;
+}
+
+
+.my_logo .fin{
+    color: white;
+    background-color: bisque;
+}
+
+
+
+
+/* 
+
+Border style   solid double dashed dotted 
+border width
+border color
+*/
+
+
+
+.cls5{
+background-color: #bbb5b5;
+width: 250px;
+height: 250px;
+/* border-style: solid;   
+border-width: 2px;
+border-color: blue; */
+/* border-top: solid 10px red;
+border-bottom: dashed 10px blue;
+border-left: double 10px green;
+border-right: dotted 10px orange; */
+
+
+border-radius: 50%;
+background-image: url(https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/f3b10448db31fb1f5dcd13c38d466d1b-1527816889992/aea165dd-6db8-4759-b342-08ae8dc41de0.png);
+
+box-shadow: 1px 1px 10px red;
+}
+
+
+/* .parent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+#title2{
+    text-shadow: 1px 2px 5px rgb(255, 255, 255),1px 3px 5px rgb(255, 46, 46);
+   
+}
+
+
+.my_element{
+
+    width: 300px;
+    height: 300px;
+    /* border-color:red ;
+    border-style: solid;
+    border-width: 1px; */
+    background-color: #eee;
+    border-left: red solid 5px;
+    border-right:green solid 5px ;
+    border-bottom:blue solid 5px ;
+    border-top:yellow solid 5px ;
+    border-radius: 50%;
+  
+}
+
+
+
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+}
+
+
+
+thead td{
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+td{
+    border: solid 2px red;
+}
+
+
+
+
+
+.cls7,.cls6{
+    width: 200px;
+    height: 100px;
+}
+
+.cls7{
+    background-color: red;
+}
+.cls6{
+    background-color: green;
+    /* margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px; */
+    /* margin: 20px 10px 30px 50px;
+    margin: 20px 100px; */
+ 
+    margin: 250px auto;
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+button{
+    padding: 10px;
+}
+
+
+input{
+    padding: 10px;
+}
+
+
+/* span{
+    display: block;
+    margin-top: 100px;
+} */
+
+

@@ -1,0 +1,45 @@
+/* 
+
+
+Flex Box 
+
+parent :
+display flex
+justify-content  (x)
+
+align-items      (y) 
+
+*/
+
+.parent{
+    border: solid;
+    display: flex;
+    height: 100vh;
+    justify-content:center; /*   start end center*/
+    align-items:center ;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.cls1,.cls2,.cls3{
+    width: 400px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cls1{
+    background-color: red;
+}
+.cls2{
+    background-color: green;
+}
+.cls3{
+    background-color: blue;
+}

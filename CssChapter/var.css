@@ -1,0 +1,29 @@
+
+:root{
+
+--gomycode-main-color:blue;
+--gomycode-text-size:10px;
+
+
+}
+
+h1{
+    color: var(--gomycode-main-color);
+}
+
+
+p{
+    text-align: center;
+    color: var(--gomycode-main-color);
+    font-size: var(--gomycode-text-size);
+}
+a{
+    text-decoration: none;
+    color: var(--gomycode-main-color);
+}
+
+
+div{
+    background-color: black;
+    color: var(--gomycode-main-color);
+}

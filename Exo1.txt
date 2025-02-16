@@ -1,0 +1,24 @@
+NOM COMPLET (important) <h1>
+Contact:
+lien email |  lien tel
+
+
+
+paragraphe    <p>
+Experience: non ordonnée  <ul>
+-
+-
+-
+
+Formation : ordonnée  <ol>
+1-
+2-
+3-
+
+
+
+lien de télechargement du Cv
+
+
+
+

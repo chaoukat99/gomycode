@@ -1,13 +1,13 @@
 // // // DOM (document object model)
 
 // // // - Selection
-// // // - HTML content 
-// // // - Attributs HTML
+// // // - HTML content (innerHTML innerText)
+// // // - Attributs HTML (element.arrtibut=newvalue element.setAttributes)
 // // // - nodes(parent children siblings)
-// // // - style
-// // // - classList
+// // // - style  element.style.property="valeur"
+// // // - classList  add remove toggle contains
 // // // - Creation des elements 
-// // // - Evenements 
+// // // - Evenements   
 
 
 

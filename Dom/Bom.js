@@ -1,3 +1,5 @@
+// Vanilla Javascript
+
 // BOM (Browser Object Model ) => Navigateur => window 
 
 
@@ -42,6 +44,11 @@ let btn = document.querySelector("button")
 
 // let lien = window.location.href;
 // window.location.href   
+
+
+
+// window.location.href="https://www.google.com";
+// window.location.reload();
 // window.location.reload pour recharger la page    
 let password="jhzdghzf-é(éI829829"
 btn.onclick=()=>{
@@ -62,6 +69,7 @@ btn.onclick=()=>{
 
 }
 
+// Redirection vers google aprés 5 s
 
 // setTimeout(()=>{
 //    window.location.href="https://www.google.com"
@@ -71,4 +79,131 @@ btn.onclick=()=>{
 
 
 
-// JSON (parse / stringify )
+// Localstorage vs Cookies 
+
+// btn = document.querySelector("button");
+// const text="hello World";
+
+// let p=document.querySelector("p");
+
+// btn.onclick=()=>{
+//    p.innerHTML=text;
+// }
+
+
+// Localstorage
+
+// Stocker ou bien insérer une valeur su L.S
+
+
+
+// LS value => key -> value 
+
+
+let btn1=document.querySelector("button");
+let inp=document.querySelector("input");
+
+btn1.onclick=()=>{
+
+   window.localStorage.setItem("utilisateur2",inp.value);
+
+}
+
+
+
+// Afficher / lire les donner du localstorage
+
+// document.querySelector("span").innerHTML=window.localStorage.getItem("utilisateur2");
+
+
+// document.querySelectorAll("button")[1].onclick=()=>{
+
+//    window.localStorage.setItem("dark","black");
+  
+//    document.body.classList.toggle("mode");
+// }
+
+
+
+// if(window.localStorage.getItem("dark")!=null){
+//     document.body.style.background=window.localStorage.getItem("dark");
+
+// }else{
+//    window.localStorage.setItem("dark","black");
+
+//    document.body.style.background="black";
+// }
+
+
+
+btn=document.querySelector("button");
+
+
+
+
+
+if(window.localStorage.getItem("count") != null){
+   document.querySelector("h2").innerHTML=window.localStorage.getItem("count");
+}
+
+btn.onclick=()=>{
+   if(window.localStorage.getItem("count") != null){
+      let i=+(window.localStorage.getItem("count"))
+      i++
+      window.localStorage.setItem("count",i);
+      document.querySelector("h2").innerHTML=i;
+   }
+}
+
+
+// 
+
+document.querySelectorAll("button")[1].onclick=()=>{
+ 
+   
+localStorage.clear();
+
+}// JSON (parse / stringify )
+
+
+
+
+// JSON (Javascript object notation ) // string 
+
+
+let obj ={
+   name:"samir",
+   age:30
+}
+
+
+console.log(typeof(obj))
+
+// JSON
+
+
+// Convertir objet js en json
+
+let newJsonObject=JSON.stringify(obj);
+// console.log(typeof(obj))
+// console.log(typeof(newJsonObject))
+
+// Convertir   json en objet js
+
+let newJsObject=JSON.parse(newJsonObject);
+
+console.log(newJsObject)
+
+// Promise 
+
+
+
+
+// alert prompt confirm print 
+// setTimeout et setInterval
+// location
+// Localstorage 
+// history   window.history.back() 
+// Bom (window) -> Dom 
+
+//  

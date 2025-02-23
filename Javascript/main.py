@@ -27,5 +27,8 @@ for i in users:
 
 
 
-def Add():
-    pass    
+def Add(a,b):
+    print(a+b)
+        
+
+

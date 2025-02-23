@@ -21,7 +21,14 @@
 
 // // let username="Samir"; 
 
+// let userAge=20; // Number 
+// let Users=null;
 
+// let Test=true; // Boolean 
+
+
+
+// String(text) "Smir"
 // // const PI=3.1467767;
 // // // PI=10; Impossible de modifier une constante 
 // // username="Karim";
